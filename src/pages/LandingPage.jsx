@@ -25,7 +25,7 @@ export default function LandingPage() {
         <nav className=" border-gray-200 py-4 bg-gray-900">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
-              <span className="text-2xl font-bold text-gray-900 dark:text-white">Ozhivu</span>
+              <span className="text-2xl font-bold text-white">Ozhivu</span>
             </a>
             <div className="flex items-center lg:order-2">
               <SignedOut>
@@ -43,10 +43,10 @@ export default function LandingPage() {
         <div className="grid max-w-screen-xl mx-auto px-4 md:grid-cols-12 gap-10 items-center py-20">
           {/* Text Content */}
           <div className="md:col-span-7 text-center md:text-left">
-            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-gray-900 dark:text-white leading-tight">
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold text-white leading-tight">
               Where silence ends,<br className="hidden sm:block" /> stories begin
             </h1>
-            <p className="mt-4 text-lg sm:text-xl text-gray-600 dark:text-gray-400">
+            <p className="mt-4 text-lg sm:text-xl text-gray-400 ">
               അവസാനിക്കുന്ന നിശബ്ദതയുടെ <span className="text-purple-700 font-medium">ഇടവേളയിൽ കഥകൾ</span> തുടക്കം കുറിക്കുന്നു
             </p>
             <div className="mt-8 flex justify-center md:justify-start">
