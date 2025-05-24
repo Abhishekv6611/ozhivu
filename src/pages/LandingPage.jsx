@@ -22,7 +22,7 @@ export default function LandingPage() {
     <>
       {/* Header */}
       <header className="fixed w-full z-50">
-        <nav className="bg-white border-gray-200 py-4 dark:bg-gray-900">
+        <nav className=" border-gray-200 py-4 bg-gray-900">
           <div className="flex flex-wrap items-center justify-between max-w-screen-xl px-4 mx-auto">
             <a href="#" className="flex items-center">
               <span className="text-2xl font-bold text-gray-900 dark:text-white">Ozhivu</span>
@@ -39,7 +39,7 @@ export default function LandingPage() {
       </header>
 
       {/* Hero Section */}
-      <section className="bg-white dark:bg-gray-900 pt-28 pb-16 min-h-screen relative overflow-hidden">
+      <section className="bg-gray-900 pt-28 pb-16 min-h-screen relative overflow-hidden">
         <div className="grid max-w-screen-xl mx-auto px-4 md:grid-cols-12 gap-10 items-center py-20">
           {/* Text Content */}
           <div className="md:col-span-7 text-center md:text-left">
